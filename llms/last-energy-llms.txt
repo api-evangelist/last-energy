@@ -1,0 +1,53 @@
+# Last Energy
+
+> Last Energy is an American developer and operator of micro-modular nuclear power plants, founded in 2019 in Washington, D.C. by Bret Kugelmass as a commercial spinout of the Energy Impact Center. Its PWR-20 is a 20 MWe pressurized water reactor assembled from a few dozen factory-made, steel-encased modules. Last Energy sells power rather than reactors, financing, owning and operating plants under long-term power purchase agreements for energy-intensive customers.
+
+Generated: 2026-08-01
+Method: generated (from apis.yml — the provider publishes no /llms.txt; https://www.lastenergy.com/llms.txt returns HTTP 404)
+
+## APIs
+
+Last Energy publishes no public API, developer portal, SDK, or machine-readable
+interface. Contract discovery on 2026-08-01 probed /openapi.json, /swagger.json,
+/api-docs, /llms.txt and the full /.well-known/* discovery surface on
+www.lastenergy.com (all 404) and found no api., developer., docs., app., portal.,
+status., trust. or mcp. subdomain in DNS. The only authenticated surface on the
+site is a Webflow customer account used to gate whitepapers and regional portals
+(/sign-up, /log-in, /user-account), which exposes no programmatic interface.
+
+## Company
+
+- [Last Energy](https://www.lastenergy.com/): Micro-modular nuclear power plants, sold as power under long-term PPAs.
+- [About](https://www.lastenergy.com/about): Company, leadership, and the Energy Impact Center origin.
+- [Technology](https://www.lastenergy.com/technology): The PWR-20 — 20 MWe pressurized water reactor, factory-made modular design with proprietary steel containment.
+- [Data centers](https://www.lastenergy.com/industries/data-center): On-site baseload power for AI and data center load growth.
+- [FAQ](https://www.lastenergy.com/faq): Common questions on safety, siting, fuel, and deployment.
+- [Contact](https://www.lastenergy.com/contact): Commercial and general enquiries.
+- [Careers](https://www.lastenergy.com/careers/jobs): Open roles (hosted on Lever at https://jobs.lever.co/last-energy).
+
+## Docs and research
+
+- [Decarbonizing Data Centers (whitepaper)](https://www.lastenergy.com/whitepaper/decarbonizing-data-centers)
+- [Titans of Nuclear](https://www.lastenergy.com/titansofnuclear): Long-running nuclear industry podcast published by Last Energy.
+
+## News
+
+- [News](https://www.lastenergy.com/news-press-categories/news)
+- [Press releases](https://www.lastenergy.com/news-press-categories/press-release)
+
+## Legal
+
+- [Privacy policy and terms of use](https://www.lastenergy.com/privacy-terms)
+
+## Elsewhere
+
+- [Wikipedia](https://en.wikipedia.org/wiki/Last_Energy)
+- [LinkedIn](https://www.linkedin.com/company/lastenergy)
+- [X](https://x.com/lastenergy)
+- [Forge Global secondary market listing](https://forgeglobal.com/last-energy_stock/)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/last-energy/refs/heads/main/apis.yml)
+- security/last-energy-domain-security.yml — probed TLS/HSTS/DNSSEC/SPF/DMARC posture
+- well-known/last-energy-well-known.yml — recorded negative result for the /.well-known/ discovery surface

@@ -1,8 +1,20 @@
 aid: last-energy
 name: Last Energy
-description: 'Last Energy is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Last Energy is an American developer and operator of micro-modular nuclear
+  power plants, founded in 2019 in Washington, D.C. by Bret Kugelmass as a commercial
+  spinout of the Energy Impact Center. Its flagship PWR-20 is a 20 MWe pressurized
+  water reactor assembled from a few dozen factory-made, steel-encased modules that
+  ship to site and are installed rather than constructed in place. Last Energy sells
+  power rather than reactors: it designs, finances, owns and operates plants under
+  long-term power purchase agreements for energy-intensive customers including data
+  centers, metals, chemicals, cement, pulp and paper, and food and beverage. The company
+  has announced projects in Texas, South Wales, Poland and Romania, entered nuclear
+  site licensing in the United Kingdom, partnered with Texas A&M and DP World, and
+  raised roughly $164M across a $40M Series B and a $100M Series C. Last Energy publishes
+  a marketing site and a gated customer/whitepaper portal, but no public developer
+  program, API, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/last-energy/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/637baf1c933a04670d122e32/6539171974d87fce48057702_Home.jpg
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -10,8 +22,22 @@ x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-01'
 modified: '2026-08-01'
+x-enrichment:
+  date: '2026-08-01'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 tags:
 - Company
+- Energy
+- Nuclear Energy
+- Small Modular Reactors
+- Electricity
+- Power Generation
+- Data Centers
+- Industrial
+- Clean Energy
+- Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +45,48 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/last-energy-domain-security.yml
+- type: LLMsTxt
+  url: llms/last-energy-llms.txt
 - type: Website
+  url: https://www.lastenergy.com/
+- type: About
+  url: https://www.lastenergy.com/about
+- type: Technology
+  url: https://www.lastenergy.com/technology
+- type: FAQ
+  url: https://www.lastenergy.com/faq
+- type: Support
+  url: https://www.lastenergy.com/contact
+- type: Contact
+  url: https://www.lastenergy.com/contact
+- type: News
+  url: https://www.lastenergy.com/news-press-categories/news
+- type: PressReleases
+  url: https://www.lastenergy.com/news-press-categories/press-release
+- type: Podcast
+  name: Titans of Nuclear
+  url: https://www.lastenergy.com/titansofnuclear
+- type: WhitePaper
+  name: Decarbonizing Data Centers
+  url: https://www.lastenergy.com/whitepaper/decarbonizing-data-centers
+- type: Careers
+  url: https://www.lastenergy.com/careers/jobs
+- type: SignUp
+  url: https://www.lastenergy.com/sign-up
+- type: Login
+  url: https://www.lastenergy.com/log-in
+- type: TermsOfService
+  url: https://www.lastenergy.com/privacy-terms
+- type: PrivacyPolicy
+  url: https://www.lastenergy.com/privacy-terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lastenergy
+- type: Twitter
+  url: https://x.com/lastenergy
+- type: Wikipedia
+  url: https://en.wikipedia.org/wiki/Last_Energy
+- type: Profile
+  name: Forge Global secondary market listing
   url: https://forgeglobal.com/last-energy_stock/

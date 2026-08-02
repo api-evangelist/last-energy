@@ -1,0 +1,59 @@
+generated: '2026-08-01'
+method: probed
+source: live GET of /.well-known/* on the Last Energy web host
+host: https://www.lastenergy.com
+notes: >-
+  Last Energy runs a Webflow-hosted marketing site. Every /.well-known/* path
+  returns an HTTP 404 with the Webflow placeholder body "Invalid .well-known
+  request", so the provider publishes no well-known discovery surface. No
+  api./developer./docs./app./portal./status./trust. subdomain resolves in DNS,
+  so there is no second host to probe. Recorded as a negative result; no
+  WellKnown / SecurityTxt pointer is wired into apis.yml because no document
+  exists.
+documents: []
+probes:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+- path: /openapi.json
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+  note: sitemap reference only
+- path: /sitemap.xml
+  status: 200
+  note: 572 URLs, all marketing/news/careers pages - no developer or API paths
+subdomains_checked:
+- host: api.lastenergy.com
+  dns: NXDOMAIN
+- host: developer.lastenergy.com
+  dns: NXDOMAIN
+- host: docs.lastenergy.com
+  dns: NXDOMAIN
+- host: app.lastenergy.com
+  dns: NXDOMAIN
+- host: portal.lastenergy.com
+  dns: NXDOMAIN
+- host: status.lastenergy.com
+  dns: NXDOMAIN
+- host: trust.lastenergy.com
+  dns: NXDOMAIN
+- host: mcp.lastenergy.com
+  dns: NXDOMAIN
