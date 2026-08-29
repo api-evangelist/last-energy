@@ -14,6 +14,17 @@ description: 'Last Energy is an American developer and operator of micro-modular
   a marketing site and a gated customer/whitepaper portal, but no public developer
   program, API, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/last-energy/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/637baf1c933a04670d122e32/6539171974d87fce48057702_Home.jpg
 x-type: company
 x-source: harvest:secondary-market
