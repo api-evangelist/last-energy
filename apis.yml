@@ -57,7 +57,7 @@ tags:
 - Small Modular Reactor
 - Electricity
 - Power Generation
-- Data-Center
+- Data Center
 - Industrial
 - Clean Energy
 - Infrastructure
@@ -72,6 +72,7 @@ tags_raw:
 - Industrial
 - Clean Energy
 - Infrastructure
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
