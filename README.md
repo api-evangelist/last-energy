@@ -64,30 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Last Energy is an American developer and operator of micro-modular nuclear power plants, founded in 2019 in Washington, D.C. by Bret Kugelmass as a commercial spinout of the Energy Impact Center. Its PWR-20 is a 20 MWe pressurized water reactor assembled from a few dozen factory-made, steel-encased modules that ship to site and are installed rather than constructed in place.
+Last Energy is an American developer and operator of micro-modular nuclear power plants, founded in 2019 in Washington, D.C. by Bret Kugelmass as a commercial spinout of the Energy Impact Center. Its flagship PWR-20 is a 20 MWe pressurized water reactor assembled from a few dozen factory-made, steel-encased modules that ship to site and are installed rather than constructed in place. Last Energy sells power rather than reactors: it designs, finances, owns and operates plants under long-term power purchase agreements for energy-intensive customers including data centers, metals, chemicals, cement, pulp and paper, and food and beverage. The company has announced projects in Texas, South Wales, Poland and Romania, entered nuclear site licensing in the United Kingdom, partnered with Texas A&M and DP World, and raised roughly $164M across a $40M Series B and a $100M Series C. Last Energy publishes a marketing site and a gated customer/whitepaper portal, but no public developer program, API, or machine-readable interface.
 
-Last Energy sells power, not reactors: it designs, finances, owns and operates plants under long-term power purchase agreements for energy-intensive customers including data centers, metals, chemicals, cement, pulp and paper, and food and beverage. It has announced projects in Texas, South Wales, Poland and Romania, entered nuclear site licensing in the United Kingdom, and raised roughly $164M across a $40M Series B and a $100M Series C.
+**Areas:** Company · Energy · Nuclear Energy · Small Modular Reactor · Electricity · Power Generation · Data Center · Industrial · Clean Energy · Infrastructure
 
-## API surface
+## Last Energy on APIs.io
 
-**None found.** Contract discovery on 2026-08-01 found no public API, developer portal, SDK, CLI, MCP server, or agent card:
+Everything profiled for Last Energy is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/last-energy/](https://apis.io/providers/last-energy/)** — or go straight to one of the APIs or properties below.
 
-- `/openapi.json`, `/swagger.json`, `/api-docs`, `/llms.txt` — all HTTP 404 on `www.lastenergy.com`
-- The entire `/.well-known/*` surface returns the Webflow placeholder `Invalid .well-known request` (404), including `agent-card.json` and `agent.json`
-- No `api.`, `developer.`, `docs.`, `app.`, `portal.`, `status.`, `trust.` or `mcp.` subdomain resolves in DNS
-- No first-party packages on npm, PyPI, or the other registries
-- The 572-URL sitemap contains only marketing, news, careers, and gated-portal pages
+### Published properties
 
-The only authenticated surface is a Webflow customer account (`/sign-up`, `/log-in`, `/user-account`) used to gate whitepapers and regional portals. It exposes no programmatic interface.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Artifacts
+#### Security (1)
 
-- `security/last-energy-domain-security.yml` — probed TLS 1.3, HSTS (1 year), DNSSEC enabled, SPF and DMARC (`quarantine`), no CAA record
-- `well-known/last-energy-well-known.yml` — recorded negative result for the `/.well-known/` discovery surface
-- `llms/last-energy-llms.txt` — generated llms.txt for the company's public surface
+Authentication, trust centre, and vulnerability disclosure.
 
-## Links
+- [Last Energy Domain Security](https://apis.io/security/last-energy/last-energy-domain-security/)
 
-- https://www.lastenergy.com/
-- https://en.wikipedia.org/wiki/Last_Energy
-- https://forgeglobal.com/last-energy_stock/
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lastenergy.com/)
+- [Sign up](https://www.lastenergy.com/sign-up)
+- [Support](https://www.lastenergy.com/contact)
+- [Terms of service](https://www.lastenergy.com/privacy-terms)
+- [Privacy policy](https://www.lastenergy.com/privacy-terms)
+
+## API Evangelist rating
+
+**Kin Score 13.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/last-energy/](https://apis.io/providers/last-energy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Last Energy: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/last-energy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
